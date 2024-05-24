@@ -1,0 +1,178 @@
+@charset "utf-8";
+
+body {
+  /* background-color: ; */
+  margin: 0;
+}
+
+header {
+  background-color: rgba(207, 206, 206, 0.292);
+  width: 100%;
+  text-align: center;
+}
+
+header img {
+  border-radius: 50%;
+  padding-top: 32px;
+  width: 140px;
+  height: 140px;
+}
+
+header h1 {
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  padding-top: 10px;
+}
+
+header p {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+main {
+  padding-top: 46px;
+  text-align: center;
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+}
+
+main h1 {
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.d1 {
+  width: 400px;
+  height: 500px;
+  margin: auto;
+  /* background: pink; */
+}
+
+
+.d1 img {
+  width: 400px;
+  padding-top: 46px;
+}
+
+.d1 h2 {
+  font-weight: normal;
+  float: left;
+  font-size: 20px;
+}
+
+
+.d1 p {
+  line-height: 1, 8;
+  float: left;
+  margin: 0;
+}
+
+.d2 {
+  width: 400px;
+  height: 500px;
+  margin: auto;
+  /* background: pink; */
+}
+
+
+.d2 img {
+  width: 400px;
+  padding-top: 46px;
+}
+
+.d2 h2 {
+  font-weight: normal;
+  float: left;
+  font-size: 20px;
+}
+
+
+.d2 p {
+  line-height: 1.8;
+  float: left;
+  margin: 0;
+}
+
+.d3 {
+  width: 400px;
+  height: 500px;
+  margin: auto;
+  /* background: pink; */
+}
+
+
+.d3 img {
+  width: 400px;
+  padding-top: 46px;
+}
+
+.d3 h2 {
+  font-weight: normal;
+  float: left;
+  font-size: 20px;
+}
+
+
+.d3 p {
+  line-height: 1.8;
+  float: left;
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+  padding: 48px;
+}
+
+footer p {
+  /* display: inline-block; */
+  color: rgba(161, 159, 159, 0.887);
+  font-size: 14px;
+}
+
+footer img {
+  width: 24px;
+  padding: 3px;
+}
+
+/* .animate {
+  opacity: 0;
+  transition: opacity 0.3s,transform 0.3s;
+}
+
+
+
+.animate.sl {
+  transform: translateX(-400px);
+}
+
+.animate.sr {
+  transform: translateX(400px);
+}
+
+.animate.appear {
+  opacity: 1;
+  transform: none;
+} */
+
+.animate {
+  opacity: 0;
+  transition:opacity .3s,transform .3s;
+}
+
+.animate.sl {
+  transform: translateX(-400px);
+}
+
+.animate.sr {
+  transform: translateX(400px);
+}
+
+
+.animate.appear {
+  opacity: 1;
+  transform: none;
+}
